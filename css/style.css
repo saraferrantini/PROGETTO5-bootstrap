@@ -1,0 +1,21 @@
+.img-card {
+  width: 208px;
+  height: auto;
+}
+
+footer li:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin: 0 auto;
+  max-width: 85%;
+}
+
+header {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 244%);
+}
+
+.btn-color {
+  background-color: rgb(48, 47, 47);
+}
