@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="dark"></html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -39,64 +38,134 @@
                     <div class="row g-0">
                       <div class="col-md-4 text-end">
                         <h1>Edit profile</h1>
-                        
-                        </div>
+                      </div>
                       <hr class="mt-0 mb-4" />
                     </div>
-                   </div>
+                  </div>
                 </div>
-              <div class="row d-flex justify-content-center align-items-center h-100">
-                <div class="col col-lg-6 mb-4 mb-lg-0">
-                  <div class="mb-3">
-                    <div class="row g-0">
-                      <div class="col-md-4 text-end">
-                        <img
-                          src="./assets/assets/avatar.png"
-                          alt="Avatar"
-                          class="img-fluid mb-5"
-                          style="width: 80%"
-                        />
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body p-4 ">
-                          
-                          <div class="row pt-1">
-                            <div class="col-12 mb-3 p-2 bg-secondary">
-                              <h6>Strive Student</h6>
-                            </div>
-                            <div class="col-12 mb-3"></div>
-                          </div>
-                          <div class="col-12 mb-3 p-2 ">
-                            <h6>Language:</h6>
-                          </div>
-                          <div>
-                            <div class="dropdown mb-3">
-                              <button class="btn btn btn-dark border dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                English
-                              </button>
-                              <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">French</a></li>
-                                <li><a class="dropdown-item" href="#">Italian</a></li>
-                                <li><a class="dropdown-item" href="#">German</a></li>
-                              </ul>
-                            </div>
+                <!-- box -->
+                <div class="row d-flex justify-content-center align-items-center h-100">
+                  <div class="col col-lg-6 mb-4 mb-lg-0">
+                    <div class="mb-3">
+                      <div class="row g-0">
+                        <!-- immagine e icona -->
+                        <div class="col-md-4" style="position: relative">
+                          <img src="./assets/assets/avatar.png" alt="Avatar" style="width: 80%" />
 
-                          <hr class="mt-0 mb-4" />
-                          <div class="row pt-1">
-                            <div class="col-6 mb-3">
-                              <h5>Maturity Setting:</h5>
-                              <div class="col-12 mb-3 p-2 btn-color">
-                                <h6>ALL MATURITY RATINGS</h6>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            viewBox="0 0 16 16"
+                            style="position: absolute; left: 8px; top: 143px"
+                          >
+                            <path
+                              d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"
+                            />
+                          </svg>
+                        </div>
+                        <!-- -- -->
+                        <div class="col-md-8">
+                          <div class="card-body p-4">
+                            <div class="row pt-1">
+                              <div class="col-12 mb-3 p-2 bg-secondary">
+                                <h6>Strive Student</h6>
                               </div>
-                              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                              <div class="col-12 mb-3"></div>
                             </div>
-                           
+                            <div class="col-12 mb-3 p-2">
+                              <h6>Language:</h6>
+                            </div>
+                            <div>
+                              <div class="dropdown mb-3">
+                                <button
+                                  class="bg-black border dropdown-toggle"
+                                  type="button"
+                                  data-bs-toggle="dropdown"
+                                  aria-expanded="false"
+                                >
+                                  English
+                                </button>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">French</a></li>
+                                  <li><a class="dropdown-item" href="#">Italian</a></li>
+                                  <li><a class="dropdown-item" href="#">German</a></li>
+                                </ul>
+                              </div>
+
+                              <hr class="mt-0 mb-4" />
+                              <div class="row pt-1">
+                                <div class="col-6 mb-3">
+                                  <h5>Maturity Setting:</h5>
+                                  <div class="row">
+                                    <div class="col-12 mb-3 p-2 btn-color">
+                                      <h6>ALL MATURITY RATINGS</h6>
+                                    </div>
+                                  </div>
+
+                                  <div class="row">
+                                    <div class="col">
+                                      <p style="white-space: nowrap">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <button class="btn text-left border border-secondary text-secondary rounded-0">
+                                E D I T
+                              </button>
+                              <br />
+                              <br />
+                              <hr class="mt-0 mb-4" />
+                              <h5>Autoplay Controls</h5>
+                              <!-- checkbox -->
+                              <div class="checkbox-div">
+                                <div class="form-check checkbox-xl mb-1">
+                                  <input
+                                    class="form-check-input rounded-0"
+                                    type="checkbox"
+                                    value=""
+                                    id="checkbox-3"
+                                    checked
+                                  />
+                                  <label class="form-check-label" for="checkbox-3"
+                                    >Autoplay next episode in a series on all devices.</label
+                                  >
+                                </div>
+                                <div class="form-check checkbox-xl">
+                                  <input
+                                    class="form-check-input rounded-0"
+                                    type="checkbox"
+                                    value=""
+                                    id="checkbox-3"
+                                    checked
+                                  />
+                                  <label class="form-check-label" for="checkbox-3"
+                                    >Autoplay previews while browsing on all devices.</label
+                                  >
+                                </div>
+                              </div>
+                              <!-- tre bottoni -->
+                            </div>
                           </div>
-                          <div class="d-flex justify-content-start">
-                            <a href="#!"><i class="fab fa-facebook-f fa-lg me-3"></i></a>
-                            <a href="#!"><i class="fab fa-twitter fa-lg me-3"></i></a>
-                            <a href="#!"><i class="fab fa-instagram fa-lg"></i></a>
-                          </div>
+                        </div>
+                      </div>
+                      <hr class="mt-7 mb-4" />
+                      <div class="row g-0">
+                        <div class="d-flex justify-content-between">
+                          <button
+                            class="btn text-left border border-secondary text-secondary rounded-0 bg-white text-dark larghezza25"
+                          >
+                            SAVE
+                          </button>
+                          <button class="btn text-left border border-secondary text-secondary rounded-0 larghezza25">
+                            CANCEL
+                          </button>
+                          <button class="btn text-left border border-secondary text-secondary rounded-0 larghezza40">
+                            DELETE PROFILE
+                          </button>
                         </div>
                       </div>
                     </div>
@@ -104,15 +173,12 @@
                 </div>
               </div>
             </div>
-            </div>
           </section>
         </div>
       </div>
     </main>
 
-
-
-    <!-- Link Boostrap JAVASCRIPT -->
+    <!-- Link Bootstrap JAVASCRIPT -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"

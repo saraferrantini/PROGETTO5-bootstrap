@@ -19,3 +19,29 @@ header {
 .btn-color {
   background-color: rgb(48, 47, 47);
 }
+
+/* Per rimuovere lo sfondo colorato */
+.checkbox-div .form-check-input {
+  background-color: transparent;
+  padding: 0.7rem;
+}
+
+/*spunta bianca */
+.checkbox-div .form-check-input:checked {
+  border-color: gray;
+}
+
+/* testo delle label */
+.checkbox-div .form-check-label {
+  color: #fff;
+}
+
+/* Per rendere la larghezza del bottone al 25% */
+.larghezza25 {
+  width: 25%;
+}
+
+/* Per rendere la larghezza del bottone al 40% */
+.larghezza40 {
+  width: 40%;
+}
